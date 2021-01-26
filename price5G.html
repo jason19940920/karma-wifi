@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/price.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="container" id="gotop">
+        <!-- header -->
+        <header class=header>       
+            <div class="header-logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="header-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Karma Voyage</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Enterprise Offerings</a></li>
+                <li class="drop-down">FAQ<i class="fas fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="#">Frequently Asked Questions</a></li>
+                    </ul>              
+                </li>
+                <li class="drop-down">Customers<i class="fas fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul> 
+                </li>
+                <li class="shopping-car"><i class="fas fa-cart-plus"><span class="car">0</span></i>
+                    <ul class="car-items">
+                        
+                    </ul>
+                </li>
+                <li class="search"><i class="fas fa-search"></i></li>
+            </div>
+            <form class="header-input">
+                <input type="text" placeholder="Type then hit enter to search...">
+                <button class="close-input"><i class="far fa-times-circle"></i></button>
+            </form>
+            <div class="header-menu-bar">
+                <li class="shopping-car"><i class="fas fa-cart-plus"><span class="car">0</span></i>
+                    <ul class="car-items">
+                        
+                    </ul>
+                </li>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"><span>MENU</span></i>
+                </label>
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Karma Voyage</a></li>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Enterprise Offerings</a></li>
+                    <li class="drop-down">FAQ<i class="fas fa-chevron-down"></i>
+                        <ul class="show-dropdown">
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                        </ul>              
+                    </li>
+                    <li class="drop-down">Customers<i class="fas fa-chevron-down"></i>
+                        <ul class="show-dropdown">
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <input type="text" class="menu-bar-search" placeholder="search">
+                    </li>
+                </ul>         
+            </div>
+        </header>
+
+        <!-- main -->
+        <div class="main">
+            <div class="product-title">
+                Karma Voyage Bundle -5 GB LTE Data
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="img/5G.png" alt="10G">
+                </div>
+                <div class="product-content">
+                    <div class="product-name">
+                        <h1 class="product-Name">Karma Voyage Bundle -5 GB LTE Data</h1>
+                        <div class="change-btn">
+                            <a href="price10G.html"><i class="fas fa-chevron-circle-left last"></i></a>       
+                            <a href="price1G.html"><i class="fas fa-chevron-circle-right next"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <div class="total-price">$132.89</div>
+                        <div class="detail-price">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>KARMA VOYAGE</td>
+                                        <td>$79.99</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Unlimited Rollover Monthly Subscription</td>
+                                        <td>$2.95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 GB LTE Data</td>
+                                        <td>$49.95</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Total</td>
+                                        <td>$132.89</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="consumption">
+                            <div class="buy-numbers">
+                                <div class="minus" onclick="minusItem();">－</div>
+                                <div class="number">0</div>
+                                <div class="plus" onclick="plusItem();">＋</div>
+                            </div>
+                            <button class="add-cart-btn" onclick="addItems();">ADD TO CART</button>
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="product-description">
+                <div class="description-title"><span>DESCRIPTION</span></div>
+                <div class="description-content">
+                    <h3>Description</h3>
+                    <span class="product-type">5G</span>
+                    <p>By clicking Buy now, you agree to pay the amount Due Today. Your Karma service will not begin until your device ships. Your subscription includes a 5GB Plan + Monthly Unlimited rollover service ($2.95). You may refill your account once your data runs low by logging in. All Plan cost and data charges are final. Additional taxes and surcharges may apply.</p>
+                </div>
+            </div>
+            <div class="related-product">
+                <h2>Related Products</h2>
+                <div class="items-container">
+                    <div class="items">
+                        <img src="img/10G.png" alt="10G">
+                        <h5>Karma Voyage Bundle -10 GB LTE Data</h5>
+                        <span>$182.84</span><br>
+                        <button class="buy-now"><a href="price10G.html">Buy Now</a></button>
+                    </div>
+                    <div class="items">
+                        <img src="img/1G.png" alt="1G">
+                        <h5>Karma Voyage Bundle -1 GB LTE Data</h5>
+                        <span>$92.93</span><br>
+                        <button class="buy-now" ><a href="price1G.html">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- gotop-btn -->
+        <a href="#gotop"><button class="gotop"><i class="fas fa-chevron-up"></i></button></a>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-color"></div>
+            <div class="copyright"><span>© Karma Mobility, Inc. <a href="#">Privacy | Terms | Safety | and Use FCC |</a></span></div>
+        </div>
+      
+    </div>
+    
+    <script src="JS/all.js"></script>
+</body>
+</html>
